@@ -1,0 +1,182 @@
+
+body {
+	background-color: black;
+	font-family: Helvetica;
+	font-size: 22px;
+	color: seashell;
+	opacity: 0.9;
+	margin: 0 auto;
+
+}
+header {
+	position: fixed;
+	opacity: 1;
+	z-index: 1;
+	width: 100%;
+}
+
+.navbar ul {
+	list-style-type: none;
+	display: inline-flex;
+	/*justify-content: space-between;*/
+	margin: 0;
+	padding: 0;
+	
+}
+.navbar a{
+	text-decoration: none;
+	color: inherit;
+}
+
+
+.navbar li {
+	text-decoration: underline;
+	padding-left: 35px;
+}
+.logo {
+	height: 50px;
+	width: auto;
+}
+.container {
+	border-bottom: 1px solid seashell;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 69px;
+	padding: 0 10px;
+	margin: 0;
+}
+.banner {
+	background-image: url("../Banner.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 700px;
+	margin: 0 50px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 1200px;
+
+
+
+}
+.banner-text {
+	
+	background-color: black;
+	width: 1200px;
+
+}
+.images{
+	display: flex;
+	flex-direction: column;
+	/*width: 1000px;*/
+	text-align: center;
+	/*margin: 0 auto;  pay attention if flex boxes are close to each other*/
+	justify-content: center;
+	align-items: center;
+}
+.images-text {
+	/*width: 1000px;*/
+}
+
+img {
+	height: 200px;
+	width: 300px;
+}
+.image-container {
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: center;
+	
+	max-width: 1000px;
+	height: 550px;
+}
+figure {
+	margin: 0 10px;
+	display: block;
+}
+figcaption {
+	padding-top: 10px;
+	margin: 0;
+}
+main {
+	display: flex;
+	align-items: center;
+	flex-flow: column;
+	justify-content: ;
+	position: relative;
+	top: 71px;
+}
+.location {
+	background-image: url("../location.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 500px;
+	margin: 0 50px;
+	/*text-align: center;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 1200px;
+	flex-direction: column;
+
+
+}
+.location h2 {
+	margin-top: 0;
+	margin-bottom: 15px;
+	height: 35px;
+}
+.location-container {
+	width: 300px;
+	height: 300px;
+	opacity: 1;
+	margin-left: 40px;
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: space-evenly;
+
+}
+
+.location-container h3{
+	margin: 0;
+}
+.location-container h4{
+	margin: 0;
+	}
+
+.location-m-container {
+	display: flex;
+	justify-content: center;
+}
+.contact {
+	height: 200px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+
+}
+.contact h2{
+	margin: 0;
+}
+.contact h4{
+	margin: 0;
+}
+.contact h5{
+	margin: 0;
+}
+
+
+	
+footer {
+	text-align: left;
+	padding-left: 20px;
+	position: relative;
+	top: 72px;
+}
